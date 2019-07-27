@@ -1,12 +1,17 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import './app.scss';
 import NavHeader from './navbar';
+// import About from './about';
 
 function App() {
   return (
-    <div className="heroImg">
-      <NavHeader/>
-    </div>
+    <Fragment>
+      <NavHeader />
+      <div className="heroImg">
+      </div>
+      {/* <About/> */}
+    </Fragment>
+
   );
 }
 

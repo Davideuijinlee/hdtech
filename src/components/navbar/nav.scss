@@ -1,4 +1,96 @@
+@import '../../media_query_mixins.scss';
+
+.row {
+    margin-right:-15px;
+}
+
 .logoImg {
     width: 50px;
-    height: 40px
+    height: 40px;
+}
+
+.navFontStyle {
+    color: black
+}
+
+span.navbar-toggler-icon {
+    color: white !important;
+}
+.dropdown-toggle::after {
+    display:none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    // position:relative; 
+    top:45px;
+    border-top: 10px;
+    margin-top: -10px; /* equal to border width */
+    border-radius: .25rem;
+}
+
+.dropdown-menu {
+    top: 32px;
+    border-radius: .25rem;
+}
+
+
+.navSize {
+    padding: 0;
+    width:100%;
+    height: 40px;
+    -webkit-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+    width: 100%;
+    position: fixed;
+      overflow-x: none ;
+
+}
+
+.navNormal {
+    padding: 0;
+    width:100%;
+    height: auto;
+    -webkit-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+    width: 100%;
+    position: fixed;
+}
+
+
+
+
+@include navBar {
+    .navSize {
+        // padding: 0 15px;
+        height: 40px;
+        width:100%;
+        -webkit-transition: all 0.8s ease;
+        transition: all 0.8s ease;
+        width: 100%;
+        position: fixed;
+        
+        .navbar-collapse {
+            background-color:white;
+        }
+    }
+    .navbar-dark .navbar-toggler{
+        background-color: black !important;
+    }
+
+    .navNormal {
+        // padding: 0 15px;
+        width:100%;
+        height: auto;
+        -webkit-transition: all 0.8s ease;
+        transition: all 0.8s ease;
+        width: 100%;
+        position: fixed;
+
+        .navbar-collapse {
+            background-color:black;
+            width:1
+        }
+    }
+    
 }
