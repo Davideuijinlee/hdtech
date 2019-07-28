@@ -3,7 +3,6 @@
 
 .aboutContainer {
     height: 50%;
-    // background-color: red;
     overflow-x: hidden;
 
     .phraseContainer,
@@ -12,17 +11,6 @@
         padding: 0;
         display: inline-block
     }
-
-    // .phraseContainer {
-    //     position: relative;
-    //     top: 0px;
-
-    //     .phraseBox {
-    //         height: 200px;
-    //         position: absolute;
-    //         top: 10%;
-    //     }
-    // }
 
     .aboutContainer {
         padding-top: 5%;
@@ -58,6 +46,4 @@
 
         }
     }
-
-    
 }

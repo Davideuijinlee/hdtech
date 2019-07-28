@@ -2,6 +2,7 @@ import React, {Fragment} from 'react';
 import './app.scss';
 import NavHeader from './navbar';
 import About from './about';
+import Services from './services';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div className="heroImg">
       </div>
       <About/>
+      <Services/>
     </Fragment>
 
   );
