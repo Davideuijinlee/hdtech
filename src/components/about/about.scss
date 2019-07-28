@@ -1,6 +1,52 @@
 .aboutContainer {
-    height:50%;
-    background-color:red;
+    height: 50%;
+    // background-color: red;
     overflow-x: hidden;
 
+    .phraseContainer,
+    .aboutContainer {
+        height: 100%;
+        padding: 0;
+        display: inline-block
+    }
+
+    // .phraseContainer {
+    //     position: relative;
+    //     top: 0px;
+
+    //     .phraseBox {
+    //         height: 200px;
+    //         position: absolute;
+    //         top: 10%;
+    //     }
+    // }
+
+    .aboutContainer {
+        padding-top: 5%;
+
+        .aboutText {
+            padding: 0;
+            font-family: 'Satisfy', cursive;
+            margin-bottom: 5px;
+            border-bottom: 1px solid blue;
+            -webkit-box-shadow: 0 1px 0 0 rgb(0, 136, 255);
+            -moz-box-shadow: 0 1px 0 0 rgb(0, 123, 255);
+            box-shadow: 0 1px 0 0 rgb(35, 75, 162);
+            content: "";
+            top: 45%;
+            left: 0;
+            right: 0;
+            width: 40%;
+            z-index: -1;
+        }
+
+        .aboutUs {
+            font-family: 'Muli', sans-serif;
+            color: rgb(84, 84, 84);
+            text-align: left;
+            // background-color: rgb(240, 240, 240);
+            padding: 2% 2% 2% 0;
+
+        }
+    }
 }
