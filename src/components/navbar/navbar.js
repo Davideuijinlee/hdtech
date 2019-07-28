@@ -4,7 +4,7 @@ import logo from '../../assets/images/logo_hd.webp'
 
 export default class NavBar extends Component {
     render() {
-        const { textColor, headerColor, navSize, dropDownColor } = this.props;
+        const { textColor, headerColor, navSize } = this.props;
 
         return (
             <Fragment>
@@ -14,10 +14,14 @@ export default class NavBar extends Component {
                             src={logo}
                             className=" logoImg d-inline-block align-top"
                             alt="HDTech Marketing Logo"
+                            text-align= 'center'
                         />
+                        <div className={`branding d-inline-block ${textColor}`}>
+                            HD TECH
+                        </div>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="hamburger responsive-navbar-nav">
+                    <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ml-auto">
                             <Nav.Link className={textColor} href="navFontStyle #about">ABOUT US</Nav.Link>
                             <Nav.Link className={textColor} href="#services">SERVICES</Nav.Link>

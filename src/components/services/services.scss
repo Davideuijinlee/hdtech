@@ -1,0 +1,125 @@
+@import '../../media_query_mixins.scss';
+
+.servicesContainer {
+    height: 70%;
+    padding: 0;
+    // background-color: blue;
+    width: 100%;
+
+    .backgroundImg {
+        height: 100%;
+        width: 100%;
+        background-image: url(../../assets/images/workSpace3.jpg);
+        position: absolute;
+        overflow: hidden;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -1;
+        opacity: .5;
+    }
+
+    .servicesText {
+        margin-top: 10px;
+        // color: white;
+        padding: 0;
+        font-family: 'Satisfy', cursive;
+        margin-bottom: 2%;
+
+    }
+
+    .imgContainer {
+        display: inline-block;
+        position: relative;
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        border-radius: 50%;
+
+        .imgContainer1 {
+            width: auto;
+            height: 100%;
+            margin-left: -106px;
+        }
+
+
+        .imgContainer2 {
+            width: auto;
+            height: 100%;
+            margin-left: -50px;
+        }
+
+
+        .imgContainer3 {
+            width: auto;
+            height: 100%;
+            margin-left: -120px;
+        }
+    }
+
+
+    .mktText {
+        padding: 0;
+        font-family: 'Muli', sans-serif;
+        margin-bottom: 5px;
+        border-bottom: 1px solid blue;
+        border-right: none;
+        -webkit-box-shadow: 0 1px 0 0 rgb(0, 136, 255);
+        -moz-box-shadow: 0 1px 0 0 rgb(0, 123, 255);
+        box-shadow: 0 1px 0 0 rgb(35, 75, 162);
+        width: 40%;
+    }
+
+    @include navBar {
+        .mktText {
+            vertical-align: top;
+            padding: 0;
+            font-family: 'Muli', sans-serif;
+            margin-bottom: 5px;
+            border-bottom: 1px solid blue;
+            border-right: none;
+            -webkit-box-shadow: 0 1px 0 0 rgb(0, 136, 255);
+            -moz-box-shadow: 0 1px 0 0 rgb(0, 123, 255);
+            box-shadow: 0 1px 0 0 rgb(35, 75, 162);
+            width: 40%;
+        }
+    }
+
+    .mktText2 {
+        padding: 0;
+        margin: auto;
+        font-family: 'Muli', sans-serif;
+        margin-bottom: 5px;
+        border-bottom: 1px solid blue;
+        border-right: none;
+        -webkit-box-shadow: 0 1px 0 0 rgb(0, 136, 255);
+        -moz-box-shadow: 0 1px 0 0 rgb(0, 123, 255);
+        box-shadow: 0 1px 0 0 rgb(35, 75, 162);
+        width: 40%;
+    }
+
+    .mktText3 {
+        padding: 0;
+        left: -15px;
+        font-family: 'Muli', sans-serif;
+        margin-bottom: 5px;
+        border-bottom: 1px solid blue;
+        border-right: none;
+        -webkit-box-shadow: 0 1px 0 0 rgb(0, 136, 255);
+        -moz-box-shadow: 0 1px 0 0 rgb(0, 123, 255);
+        box-shadow: 0 1px 0 0 rgb(35, 75, 162);
+        width: 40%;
+    }
+
+    .descText{
+        padding: 0;
+        font-family: 'Muli', sans-serif;
+    }
+
+    .descText3{
+        font-family: 'Muli', sans-serif;
+        padding: 0;
+        right: 75px;
+    }
+    
+}
