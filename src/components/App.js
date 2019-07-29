@@ -3,6 +3,7 @@ import './app.scss';
 import NavHeader from './navbar';
 import About from './about';
 import Services from './services';
+import Contact from './contact';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       </div>
       <About/>
       <Services/>
+      <Contact/>
     </Fragment>
 
   );
