@@ -1,10 +1,11 @@
 @import '../../media_query_mixins.scss';
 
 .servicesContainer {
-    height: 70%;
+    height: auto;
     padding: 0;
     // background-color: blue;
     width: 100%;
+    position:relative;
 
     .backgroundImg {
         height: 100%;
@@ -16,13 +17,11 @@
         background-repeat: no-repeat;
         background-size: cover;
         z-index: -1;
-        opacity: .5;
+        opacity: .35;
     }
 
     .servicesText {
-        margin-top: 10px;
-        // color: white;
-        padding: 0;
+        margin-top: 20px;
         font-family: 'Satisfy', cursive;
         margin-bottom: 2%;
 
@@ -55,6 +54,11 @@
             height: 100%;
             margin-left: -120px;
         }
+    }
+
+    .textContainer {
+        margin-top: 10px;
+        vertical-align: top;
     }
 
     .descContainer{
@@ -124,6 +128,8 @@
     .descText{
         padding: 0;
         font-family: 'Muli', sans-serif;
+        color: rgb(52, 52, 52);
+        margin-top: 10px;
     }
 
     .descText3{
