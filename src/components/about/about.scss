@@ -2,8 +2,8 @@
 
 
 .aboutContainer {
-    height: 50%;
-    overflow-x: hidden;
+    height: 60%;
+    overflow: hidden;
 
     .phraseContainer,
     .aboutContainer {
@@ -13,7 +13,7 @@
     }
 
     .aboutContainer {
-        padding-top: 5%;
+        padding-top: 2%;
 
         .aboutText {
             padding: 0;
@@ -22,7 +22,7 @@
             border-bottom: 1px solid blue;
             -webkit-box-shadow: 0 1px 0 0 rgb(0, 136, 255);
             -moz-box-shadow: 0 1px 0 0 rgb(0, 123, 255);
-            box-shadow: 0 1px 0 0 rgb(35, 75, 162);
+            box-shadow: 0 0 0 0 rgb(35, 75, 162);
             width: 40%;
         }
 
@@ -34,7 +34,7 @@
                 border-bottom: 1px solid blue;
                 -webkit-box-shadow: 0 1px 0 0 rgb(0, 136, 255);
                 -moz-box-shadow: 0 1px 0 0 rgb(0, 123, 255);
-                box-shadow: 0 1px 0 0 rgb(35, 75, 162);
+                box-shadow: 0 0 0 0 rgb(35, 75, 162);
                 width: 100%;
             }
         }
